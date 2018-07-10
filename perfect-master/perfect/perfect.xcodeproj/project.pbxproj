@@ -7,81 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5118BF3A20F4708E00EED2DF /* perfect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5118BF3020F4708E00EED2DF /* perfect.framework */; };
-		5118BF3F20F4708F00EED2DF /* perfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5118BF3E20F4708F00EED2DF /* perfectTests.swift */; };
-		5118BF4120F4708F00EED2DF /* perfect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5118BF3320F4708E00EED2DF /* perfect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5118BF6720F4728500EED2DF /* perfect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5118BF5D20F4728500EED2DF /* perfect.framework */; };
+		5118BF6C20F4728500EED2DF /* perfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5118BF6B20F4728500EED2DF /* perfectTests.swift */; };
+		5118BF6E20F4728500EED2DF /* perfect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5118BF6020F4728500EED2DF /* perfect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5118BF3B20F4708E00EED2DF /* PBXContainerItemProxy */ = {
+		5118BF6820F4728500EED2DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5118BF2720F4708E00EED2DF /* Project object */;
+			containerPortal = 5118BF5420F4728500EED2DF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5118BF2F20F4708E00EED2DF;
+			remoteGlobalIDString = 5118BF5C20F4728500EED2DF;
 			remoteInfo = perfect;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5118BF3020F4708E00EED2DF /* perfect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = perfect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5118BF3320F4708E00EED2DF /* perfect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perfect.h; sourceTree = "<group>"; };
-		5118BF3420F4708E00EED2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5118BF3920F4708E00EED2DF /* perfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5118BF3E20F4708F00EED2DF /* perfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfectTests.swift; sourceTree = "<group>"; };
-		5118BF4020F4708F00EED2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5118BF5D20F4728500EED2DF /* perfect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = perfect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5118BF6020F4728500EED2DF /* perfect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perfect.h; sourceTree = "<group>"; };
+		5118BF6120F4728500EED2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5118BF6620F4728500EED2DF /* perfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5118BF6B20F4728500EED2DF /* perfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfectTests.swift; sourceTree = "<group>"; };
+		5118BF6D20F4728500EED2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5118BF2C20F4708E00EED2DF /* Frameworks */ = {
+		5118BF5920F4728500EED2DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5118BF3620F4708E00EED2DF /* Frameworks */ = {
+		5118BF6320F4728500EED2DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5118BF3A20F4708E00EED2DF /* perfect.framework in Frameworks */,
+				5118BF6720F4728500EED2DF /* perfect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5118BF2620F4708E00EED2DF = {
+		5118BF5320F4728500EED2DF = {
 			isa = PBXGroup;
 			children = (
-				5118BF3220F4708E00EED2DF /* perfect */,
-				5118BF3D20F4708E00EED2DF /* perfectTests */,
-				5118BF3120F4708E00EED2DF /* Products */,
+				5118BF5F20F4728500EED2DF /* perfect */,
+				5118BF6A20F4728500EED2DF /* perfectTests */,
+				5118BF5E20F4728500EED2DF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5118BF3120F4708E00EED2DF /* Products */ = {
+		5118BF5E20F4728500EED2DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5118BF3020F4708E00EED2DF /* perfect.framework */,
-				5118BF3920F4708E00EED2DF /* perfectTests.xctest */,
+				5118BF5D20F4728500EED2DF /* perfect.framework */,
+				5118BF6620F4728500EED2DF /* perfectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5118BF3220F4708E00EED2DF /* perfect */ = {
+		5118BF5F20F4728500EED2DF /* perfect */ = {
 			isa = PBXGroup;
 			children = (
-				5118BF3320F4708E00EED2DF /* perfect.h */,
-				5118BF3420F4708E00EED2DF /* Info.plist */,
+				5118BF6020F4728500EED2DF /* perfect.h */,
+				5118BF6120F4728500EED2DF /* Info.plist */,
 			);
 			path = perfect;
 			sourceTree = "<group>";
 		};
-		5118BF3D20F4708E00EED2DF /* perfectTests */ = {
+		5118BF6A20F4728500EED2DF /* perfectTests */ = {
 			isa = PBXGroup;
 			children = (
-				5118BF3E20F4708F00EED2DF /* perfectTests.swift */,
-				5118BF4020F4708F00EED2DF /* Info.plist */,
+				5118BF6B20F4728500EED2DF /* perfectTests.swift */,
+				5118BF6D20F4728500EED2DF /* Info.plist */,
 			);
 			path = perfectTests;
 			sourceTree = "<group>";
@@ -89,25 +89,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5118BF2D20F4708E00EED2DF /* Headers */ = {
+		5118BF5A20F4728500EED2DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5118BF4120F4708F00EED2DF /* perfect.h in Headers */,
+				5118BF6E20F4728500EED2DF /* perfect.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5118BF2F20F4708E00EED2DF /* perfect */ = {
+		5118BF5C20F4728500EED2DF /* perfect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5118BF4420F4708F00EED2DF /* Build configuration list for PBXNativeTarget "perfect" */;
+			buildConfigurationList = 5118BF7120F4728500EED2DF /* Build configuration list for PBXNativeTarget "perfect" */;
 			buildPhases = (
-				5118BF2B20F4708E00EED2DF /* Sources */,
-				5118BF2C20F4708E00EED2DF /* Frameworks */,
-				5118BF2D20F4708E00EED2DF /* Headers */,
-				5118BF2E20F4708E00EED2DF /* Resources */,
+				5118BF5820F4728500EED2DF /* Sources */,
+				5118BF5920F4728500EED2DF /* Frameworks */,
+				5118BF5A20F4728500EED2DF /* Headers */,
+				5118BF5B20F4728500EED2DF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,72 +115,72 @@
 			);
 			name = perfect;
 			productName = perfect;
-			productReference = 5118BF3020F4708E00EED2DF /* perfect.framework */;
+			productReference = 5118BF5D20F4728500EED2DF /* perfect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5118BF3820F4708E00EED2DF /* perfectTests */ = {
+		5118BF6520F4728500EED2DF /* perfectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5118BF4720F4708F00EED2DF /* Build configuration list for PBXNativeTarget "perfectTests" */;
+			buildConfigurationList = 5118BF7420F4728500EED2DF /* Build configuration list for PBXNativeTarget "perfectTests" */;
 			buildPhases = (
-				5118BF3520F4708E00EED2DF /* Sources */,
-				5118BF3620F4708E00EED2DF /* Frameworks */,
-				5118BF3720F4708E00EED2DF /* Resources */,
+				5118BF6220F4728500EED2DF /* Sources */,
+				5118BF6320F4728500EED2DF /* Frameworks */,
+				5118BF6420F4728500EED2DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5118BF3C20F4708E00EED2DF /* PBXTargetDependency */,
+				5118BF6920F4728500EED2DF /* PBXTargetDependency */,
 			);
 			name = perfectTests;
 			productName = perfectTests;
-			productReference = 5118BF3920F4708E00EED2DF /* perfectTests.xctest */;
+			productReference = 5118BF6620F4728500EED2DF /* perfectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5118BF2720F4708E00EED2DF /* Project object */ = {
+		5118BF5420F4728500EED2DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Luna Cao";
 				TargetAttributes = {
-					5118BF2F20F4708E00EED2DF = {
+					5118BF5C20F4728500EED2DF = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					5118BF3820F4708E00EED2DF = {
+					5118BF6520F4728500EED2DF = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 5118BF2A20F4708E00EED2DF /* Build configuration list for PBXProject "perfect" */;
+			buildConfigurationList = 5118BF5720F4728500EED2DF /* Build configuration list for PBXProject "perfect" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5118BF2620F4708E00EED2DF;
-			productRefGroup = 5118BF3120F4708E00EED2DF /* Products */;
+			mainGroup = 5118BF5320F4728500EED2DF;
+			productRefGroup = 5118BF5E20F4728500EED2DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5118BF2F20F4708E00EED2DF /* perfect */,
-				5118BF3820F4708E00EED2DF /* perfectTests */,
+				5118BF5C20F4728500EED2DF /* perfect */,
+				5118BF6520F4728500EED2DF /* perfectTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5118BF2E20F4708E00EED2DF /* Resources */ = {
+		5118BF5B20F4728500EED2DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5118BF3720F4708E00EED2DF /* Resources */ = {
+		5118BF6420F4728500EED2DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,33 +190,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5118BF2B20F4708E00EED2DF /* Sources */ = {
+		5118BF5820F4728500EED2DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5118BF3520F4708E00EED2DF /* Sources */ = {
+		5118BF6220F4728500EED2DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5118BF3F20F4708F00EED2DF /* perfectTests.swift in Sources */,
+				5118BF6C20F4728500EED2DF /* perfectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5118BF3C20F4708E00EED2DF /* PBXTargetDependency */ = {
+		5118BF6920F4728500EED2DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5118BF2F20F4708E00EED2DF /* perfect */;
-			targetProxy = 5118BF3B20F4708E00EED2DF /* PBXContainerItemProxy */;
+			target = 5118BF5C20F4728500EED2DF /* perfect */;
+			targetProxy = 5118BF6820F4728500EED2DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5118BF4220F4708F00EED2DF /* Debug */ = {
+		5118BF6F20F4728500EED2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +279,7 @@
 			};
 			name = Debug;
 		};
-		5118BF4320F4708F00EED2DF /* Release */ = {
+		5118BF7020F4728500EED2DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,7 +336,7 @@
 			};
 			name = Release;
 		};
-		5118BF4520F4708F00EED2DF /* Debug */ = {
+		5118BF7220F4728500EED2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -362,7 +362,7 @@
 			};
 			name = Debug;
 		};
-		5118BF4620F4708F00EED2DF /* Release */ = {
+		5118BF7320F4728500EED2DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -388,7 +388,7 @@
 			};
 			name = Release;
 		};
-		5118BF4820F4708F00EED2DF /* Debug */ = {
+		5118BF7520F4728500EED2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -405,7 +405,7 @@
 			};
 			name = Debug;
 		};
-		5118BF4920F4708F00EED2DF /* Release */ = {
+		5118BF7620F4728500EED2DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -425,34 +425,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5118BF2A20F4708E00EED2DF /* Build configuration list for PBXProject "perfect" */ = {
+		5118BF5720F4728500EED2DF /* Build configuration list for PBXProject "perfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5118BF4220F4708F00EED2DF /* Debug */,
-				5118BF4320F4708F00EED2DF /* Release */,
+				5118BF6F20F4728500EED2DF /* Debug */,
+				5118BF7020F4728500EED2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5118BF4420F4708F00EED2DF /* Build configuration list for PBXNativeTarget "perfect" */ = {
+		5118BF7120F4728500EED2DF /* Build configuration list for PBXNativeTarget "perfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5118BF4520F4708F00EED2DF /* Debug */,
-				5118BF4620F4708F00EED2DF /* Release */,
+				5118BF7220F4728500EED2DF /* Debug */,
+				5118BF7320F4728500EED2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5118BF4720F4708F00EED2DF /* Build configuration list for PBXNativeTarget "perfectTests" */ = {
+		5118BF7420F4728500EED2DF /* Build configuration list for PBXNativeTarget "perfectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5118BF4820F4708F00EED2DF /* Debug */,
-				5118BF4920F4708F00EED2DF /* Release */,
+				5118BF7520F4728500EED2DF /* Debug */,
+				5118BF7620F4728500EED2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5118BF2720F4708E00EED2DF /* Project object */;
+	rootObject = 5118BF5420F4728500EED2DF /* Project object */;
 }
