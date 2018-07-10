@@ -21,15 +21,46 @@ class carpoolAdViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     
+    //lauren————————————————————————————————————————————————————————————
     //button to go back to main
     @IBOutlet weak var back: UIButton!
     @IBAction func goback(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
     
+    //time label
+    @IBOutlet private weak var showGoTime: UILabel!
+    //time picker
+    @IBOutlet weak var gotime: UIDatePicker!
     
+    @IBAction func gotime(_ sender: UIDatePicker) {
+        let dateFormatter = DateFormatter()
+        
+        dateFormatter.dateStyle = DateFormatter.Style.short
+        dateFormatter.timeStyle = DateFormatter.Style.short
+        
+        let strDate = dateFormatter.string(from: gotime.date)
+        showGoTime.text = "从 \(strDate)至"
+    }
+    
+    //latest go time label
+    @IBOutlet private weak var latestGoTime: UILabel!
+    //latest go time
+    @IBOutlet weak var latestGo: UIDatePicker!
+    
+    @IBAction func latestGo(_ sender: UIDatePicker) {
+        let dateFormatter = DateFormatter()
+        
+    //    dateFormatter.dateStyle = DateFormatter.Style.short
+        dateFormatter.timeStyle = DateFormatter.Style.short
+        
+        let strDate = dateFormatter.string(from: latestGo.date)
+        latestGoTime.text = "至 \(strDate)之间出发"
+    }
+    
+    
+    //------------------------------------------------------------------
     
     /*
     // MARK: - Navigation
