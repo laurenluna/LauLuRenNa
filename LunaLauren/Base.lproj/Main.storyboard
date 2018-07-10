@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bSy-bC-x5m">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HGJ-zl-43D">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,7 +23,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="&lt; Back"/>
                                 <connections>
-                                    <action selector="return:" destination="DWY-yS-N6b" eventType="touchUpInside" id="NrN-iP-eXd"/>
                                     <segue destination="HGJ-zl-43D" kind="showDetail" id="NB2-73-LmG"/>
                                 </connections>
                             </button>
@@ -55,7 +54,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="&lt; Back"/>
                                 <connections>
-                                    <action selector="return:" destination="DWY-yS-N6b" eventType="touchUpInside" id="IfT-Rl-Uk6"/>
                                     <segue destination="HGJ-zl-43D" kind="showDetail" id="lr4-1K-kXe"/>
                                 </connections>
                             </button>
@@ -87,7 +85,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="&lt; Back"/>
                                 <connections>
-                                    <action selector="return:" destination="DWY-yS-N6b" eventType="touchUpInside" id="YCd-dH-ACh"/>
                                     <segue destination="HGJ-zl-43D" kind="showDetail" id="cHH-0t-HvD"/>
                                 </connections>
                             </button>
@@ -105,41 +102,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZy-Eo-1eo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1572" y="-1263"/>
-        </scene>
-        <!--Send Ad View Contronller-->
-        <scene sceneID="26l-nu-b03">
-            <objects>
-                <viewController id="DWY-yS-N6b" customClass="sendAdViewContronller" customModule="LunaLauren" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CWD-HE-Dxl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Blg-JO-Yza">
-                                <rect key="frame" x="107" y="249" width="82" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="发送广告"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7w1-I9-e9n">
-                                <rect key="frame" x="16" y="20" width="48" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Back"/>
-                                <connections>
-                                    <action selector="return:" destination="DWY-yS-N6b" eventType="touchUpInside" id="QmK-5M-gcX"/>
-                                    <segue destination="HGJ-zl-43D" kind="showDetail" id="GUN-6i-EBa"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="sB4-BF-ibc"/>
-                    </view>
-                    <connections>
-                        <outlet property="back" destination="7w1-I9-e9n" id="mau-YK-mHu"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dju-EV-zB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1572" y="197"/>
         </scene>
         <!--Menu Controller-->
         <scene sceneID="1hm-eZ-pIk">
@@ -171,7 +133,7 @@
                                 </state>
                                 <connections>
                                     <action selector="turnSendAd:" destination="Sr3-Md-37M" eventType="touchUpInside" id="gg8-sX-oeA"/>
-                                    <segue destination="DWY-yS-N6b" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Hok-RU-gz8"/>
+                                    <segue destination="DYu-iB-2be" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="u4d-lU-Z0c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kA-7Y-n0P">
@@ -366,7 +328,7 @@
                                 <state key="normal" title="&lt;back"/>
                                 <connections>
                                     <action selector="back:" destination="SXs-Gd-2yR" eventType="touchUpInside" id="6Od-XU-VTU"/>
-                                    <segue destination="Sr3-Md-37M" kind="show" id="ybW-HP-rEh"/>
+                                    <segue destination="HGJ-zl-43D" kind="showDetail" id="ivw-CZ-U9A"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -830,8 +792,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Mah-fw-5dh"/>
-        <segue reference="NB2-73-LmG"/>
-        <segue reference="ybW-HP-rEh"/>
+        <segue reference="326-Wu-2Gg"/>
+        <segue reference="f0C-Pt-C9H"/>
+        <segue reference="ivw-CZ-U9A"/>
     </inferredMetricsTieBreakers>
 </document>
