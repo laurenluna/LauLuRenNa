@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515AD6EF20F468CD0039029D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515AD6EE20F468CC0039029D /* SWRevealViewController.m */; };
 		517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */; };
 		517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */; };
 		517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */; };
@@ -17,7 +18,6 @@
 		518F57D120EE89D700C97453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518F57CF20EE89D700C97453 /* LaunchScreen.storyboard */; };
 		518F57DC20EE89D700C97453 /* LunaLaurenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57DB20EE89D700C97453 /* LunaLaurenTests.swift */; };
 		518F57E720EE89D700C97453 /* LunaLaurenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57E620EE89D700C97453 /* LunaLaurenUITests.swift */; };
-		51988BA220F1611E00FA38F9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51988BA120F1611E00FA38F9 /* SWRevealViewController.m */; };
 		51988BA820F1638B00FA38F9 /* menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51988BA720F1638B00FA38F9 /* menuController.swift */; };
 		51988BAA20F1777F00FA38F9 /* revealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51988BA920F1777F00FA38F9 /* revealController.swift */; };
 		51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */; };
@@ -46,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515AD6ED20F468CC0039029D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		515AD6EE20F468CC0039029D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alreadySentAdViewController.swift; sourceTree = "<group>"; };
 		517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
 		517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMessegeViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +65,6 @@
 		518F57E620EE89D700C97453 /* LunaLaurenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaLaurenUITests.swift; sourceTree = "<group>"; };
 		518F57E820EE89D700C97453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51988B9F20F1611D00FA38F9 /* LunaLauren-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LunaLauren-Bridging-Header.h"; sourceTree = "<group>"; };
-		51988BA020F1611E00FA38F9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		51988BA120F1611E00FA38F9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		51988BA720F1638B00FA38F9 /* menuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuController.swift; sourceTree = "<group>"; };
 		51988BA920F1777F00FA38F9 /* revealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revealController.swift; sourceTree = "<group>"; };
 		51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xianzhiViewController.swift; sourceTree = "<group>"; };
@@ -166,8 +166,8 @@
 		51988B9E20F160DD00FA38F9 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
-				51988BA020F1611E00FA38F9 /* SWRevealViewController.h */,
-				51988BA120F1611E00FA38F9 /* SWRevealViewController.m */,
+				515AD6ED20F468CC0039029D /* SWRevealViewController.h */,
+				515AD6EE20F468CC0039029D /* SWRevealViewController.m */,
 				51988B9F20F1611D00FA38F9 /* LunaLauren-Bridging-Header.h */,
 			);
 			path = SWRevealViewController;
@@ -307,6 +307,7 @@
 			files = (
 				51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */,
 				FA85252020F2FA4E004E1314 /* carpoolAdViewController.swift in Sources */,
+				515AD6EF20F468CD0039029D /* SWRevealViewController.m in Sources */,
 				51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */,
 				51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */,
 				518F57C920EE89D300C97453 /* ViewController.swift in Sources */,
@@ -318,7 +319,6 @@
 				517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */,
 				FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */,
 				FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */,
-				51988BA220F1611E00FA38F9 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
