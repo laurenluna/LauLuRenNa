@@ -29,6 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5118BF4F20F4709000EED2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5118BF4A20F4708F00EED2DF /* perfect.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5118BF3020F4708E00EED2DF;
+			remoteInfo = perfect;
+		};
+		5118BF5120F4709000EED2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5118BF4A20F4708F00EED2DF /* perfect.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5118BF3920F4708E00EED2DF;
+			remoteInfo = perfectTests;
+		};
 		518F57D820EE89D700C97453 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 518F57BB20EE89D300C97453 /* Project object */;
@@ -46,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5118BF4A20F4708F00EED2DF /* perfect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = perfect.xcodeproj; path = perfect/perfect.xcodeproj; sourceTree = "<group>"; };
 		515AD6ED20F468CC0039029D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		515AD6EE20F468CC0039029D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alreadySentAdViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5118BF4B20F4708F00EED2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5118BF5020F4709000EED2DF /* perfect.framework */,
+				5118BF5220F4709000EED2DF /* perfectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		518F57BA20EE89D300C97453 = {
 			isa = PBXGroup;
 			children = (
+				5118BF4A20F4708F00EED2DF /* perfect.xcodeproj */,
 				518F57C520EE89D300C97453 /* LunaLauren */,
 				518F57DA20EE89D700C97453 /* LunaLaurenTests */,
 				518F57E520EE89D700C97453 /* LunaLaurenUITests */,
@@ -264,6 +289,12 @@
 			mainGroup = 518F57BA20EE89D300C97453;
 			productRefGroup = 518F57C420EE89D300C97453 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5118BF4B20F4708F00EED2DF /* Products */;
+					ProjectRef = 5118BF4A20F4708F00EED2DF /* perfect.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				518F57C220EE89D300C97453 /* LunaLauren */,
@@ -272,6 +303,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5118BF5020F4709000EED2DF /* perfect.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = perfect.framework;
+			remoteRef = 5118BF4F20F4709000EED2DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5118BF5220F4709000EED2DF /* perfectTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = perfectTests.xctest;
+			remoteRef = 5118BF5120F4709000EED2DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		518F57C120EE89D300C97453 /* Resources */ = {
