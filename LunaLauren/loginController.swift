@@ -41,6 +41,10 @@ class loginController: UIViewController {
     }
     
     func DoLogin(_ user:String, _ pass:String){
+        //temp to use
+        //不知道该怎么写！！！！！痛苦！！！！！
+        //救命啊！！！！！
+        //数据库搭不好！！！！！
         
     }
     
