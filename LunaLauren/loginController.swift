@@ -21,7 +21,29 @@ class loginController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBOutlet weak var username: UITextField!
+    
+    @IBOutlet weak var password: UITextField!
+    
+    
+    @IBAction func login(_ sender: Any) {
+    
+        let user = username.text
+        let pass = password.text
+        
+        if (user == "" || pass == ""){
+            return
+        }
+        
+        DoLogin(user!,pass!)
+    }
+    
+    func DoLogin(_ user:String, _ pass:String){
+        
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
