@@ -23,6 +23,7 @@
 		51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */; };
 		51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */; };
 		51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */; };
+		51D93A1120F649BC00A0AC24 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D93A1020F649BC00A0AC24 /* loginController.swift */; };
 		FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */; };
 		FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */; };
 		FA85252020F2FA4E004E1314 /* carpoolAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */; };
@@ -85,6 +86,7 @@
 		51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xianzhiViewController.swift; sourceTree = "<group>"; };
 		51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherViewController.swift; sourceTree = "<group>"; };
 		51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolViewController.swift; sourceTree = "<group>"; };
+		51D93A1020F649BC00A0AC24 /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
 		FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewController.swift; sourceTree = "<group>"; };
 		FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendAdViewContronller.swift; sourceTree = "<group>"; };
 		FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpoolAdViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */,
 				51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */,
 				518F57CA20EE89D300C97453 /* Main.storyboard */,
+				51D93A1020F649BC00A0AC24 /* loginController.swift */,
 				518F57CD20EE89D700C97453 /* Assets.xcassets */,
 				518F57CF20EE89D700C97453 /* LaunchScreen.storyboard */,
 				518F57D220EE89D700C97453 /* Info.plist */,
@@ -359,6 +362,7 @@
 				51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */,
 				51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */,
 				518F57C920EE89D300C97453 /* ViewController.swift in Sources */,
+				51D93A1120F649BC00A0AC24 /* loginController.swift in Sources */,
 				51988BAA20F1777F00FA38F9 /* revealController.swift in Sources */,
 				517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */,
 				517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */,
