@@ -56,8 +56,8 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(otherView, animated: true)
     }
     
-    //choosing departure City
     
+
     
     
     

@@ -60,6 +60,41 @@ class carpoolAdViewController: UIViewController {
     }
     
     
+    //select departure city
+    @IBOutlet weak var textBox: UITextField!
+    @IBOutlet weak var selectCity: UIPickerView!
+    
+    var list = ["Toronto","London","Waterloo","Hamilton","Mississauga","Montreal"]
+    
+    func depCity(pickerView: UIPickerView) -> String {
+        return "String"
+    }
+    
+    func pickerView(pickerView: UIPickerView, departCity component: String) -> String {
+        return "String"
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+        self.view.endEditing(true)
+        return list[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+//        if pickerView == selectCity {
+//
+//            self.textBox = self.list[Int]
+//        }
+        self.textBox.text = self.list[row]
+        self.selectCity.isHidden = true
+    }
+    
+    func textFieldDidBeginEditing(textField: UITextField) {
+        if textField == self.textBox {
+            self.selectCity.isHidden = false
+            textField.endEditing(true)
+        }
+    }
+    
     //------------------------------------------------------------------
     
     /*

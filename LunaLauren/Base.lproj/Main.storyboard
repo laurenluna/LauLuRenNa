@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HGJ-zl-43D">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DYu-iB-2be">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -777,15 +777,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="textbox:" destination="SXs-Gd-2yR" eventType="editingDidEnd" id="gAD-Ws-8yk"/>
                                     <outlet property="delegate" destination="bSy-bC-x5m" id="mY7-Cl-5pr"/>
                                 </connections>
                             </textField>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r4P-57-Nkr">
-                                <rect key="frame" x="63" y="106" width="375" height="162"/>
+                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Zy-GL-gnY">
+                                <rect key="frame" x="63" y="99" width="375" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="bSy-bC-x5m" id="APD-Pr-exA"/>
-                                    <outlet property="delegate" destination="bSy-bC-x5m" id="FTf-rN-xQw"/>
+                                    <outlet property="dataSource" destination="bSy-bC-x5m" id="0Mh-ga-SWy"/>
+                                    <outlet property="delegate" destination="bSy-bC-x5m" id="Xkq-dN-Mnh"/>
                                 </connections>
                             </pickerView>
                         </subviews>
@@ -797,7 +798,9 @@
                         <outlet property="gotime" destination="ccj-7c-IZJ" id="DqS-ey-brg"/>
                         <outlet property="latestGo" destination="9EZ-pP-tFY" id="0BX-CT-5LB"/>
                         <outlet property="latestGoTime" destination="Dm7-za-3eU" id="f9r-9y-vbG"/>
+                        <outlet property="selectCity" destination="6Zy-GL-gnY" id="KDK-ww-XKN"/>
                         <outlet property="showGoTime" destination="xSm-JM-hUm" id="bmV-ZS-R1o"/>
+                        <outlet property="textBox" destination="i1C-M6-HNX" id="nqN-7K-EcZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCd-mn-HlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
