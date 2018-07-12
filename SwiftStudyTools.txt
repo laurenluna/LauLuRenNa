@@ -60,3 +60,17 @@ Postgres setup:http://fengliner.github.io/2016/01/05/Mac下PostgreSql的安装�
 Postgres for perfect: https://github.com/PerfectlySoft/Perfect-PostgreSQL
 
 https://perfect.org/docs/authentication_zh_CN.html
+
+
+
+
+https://blog.csdn.net/u012411532/article/details/51753878
+https://www.cnblogs.com/ludashi/p/6179711.html
+http://blog.51cto.com/winners/2048908
+https://www.jianshu.com/p/d5a060878449
+
+
+https://www.simplifiedios.net/ios-registration-form-example/
+
+
+Issue solve:https://stackoverflow.com/questions/4219970/warning-mysql-connect-2002-no-such-file-or-directory-trying-to-connect-vi

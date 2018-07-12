@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		515AD6EF20F468CD0039029D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515AD6EE20F468CC0039029D /* SWRevealViewController.m */; };
+		5168AF9720F7A86100D681A5 /* perfect.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 5168AF9620F7A86100D681A5 /* perfect.xcworkspace */; };
 		517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */; };
 		517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */; };
 		517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		515AD6ED20F468CC0039029D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		515AD6EE20F468CC0039029D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5168AF9620F7A86100D681A5 /* perfect.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = perfect.xcworkspace; sourceTree = "<group>"; };
 		517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alreadySentAdViewController.swift; sourceTree = "<group>"; };
 		517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
 		517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMessegeViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		518F57BA20EE89D300C97453 = {
 			isa = PBXGroup;
 			children = (
+				5168AF9620F7A86100D681A5 /* perfect.xcworkspace */,
 				518F57C520EE89D300C97453 /* LunaLauren */,
 				518F57DA20EE89D700C97453 /* LunaLaurenTests */,
 				518F57E520EE89D700C97453 /* LunaLaurenUITests */,
@@ -281,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5168AF9720F7A86100D681A5 /* perfect.xcworkspace in Resources */,
 				518F57D120EE89D700C97453 /* LaunchScreen.storyboard in Resources */,
 				518F57CE20EE89D700C97453 /* Assets.xcassets in Resources */,
 				518F57CC20EE89D300C97453 /* Main.storyboard in Resources */,
