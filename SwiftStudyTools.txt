@@ -49,4 +49,10 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 https://perfect.org/docs/gettingStarted_zh_CN.html
 
 
+
 Authentication video: https://www.youtube.com/watch?v=y2hiaoaRBQ0
+
+
+brew services start postgresql
+
+Postgres setup:http://fengliner.github.io/2016/01/05/Mac下PostgreSql的安装与使用/
