@@ -56,6 +56,13 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(otherView, animated: true)
     }
     
+    
+
+    
+    
+    
+    
+    
 
     
 }
