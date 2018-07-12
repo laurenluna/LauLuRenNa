@@ -770,25 +770,6 @@
                                     <action selector="latestGo:" destination="bSy-bC-x5m" eventType="valueChanged" id="JtV-l4-ZJR"/>
                                 </connections>
                             </datePicker>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i1C-M6-HNX">
-                                <rect key="frame" x="212" y="72" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textbox:" destination="SXs-Gd-2yR" eventType="editingDidEnd" id="gAD-Ws-8yk"/>
-                                    <outlet property="delegate" destination="bSy-bC-x5m" id="mY7-Cl-5pr"/>
-                                </connections>
-                            </textField>
-                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Zy-GL-gnY">
-                                <rect key="frame" x="63" y="99" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="bSy-bC-x5m" id="0Mh-ga-SWy"/>
-                                    <outlet property="delegate" destination="bSy-bC-x5m" id="Xkq-dN-Mnh"/>
-                                </connections>
-                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AOZ-4f-SiR"/>
@@ -798,9 +779,7 @@
                         <outlet property="gotime" destination="ccj-7c-IZJ" id="DqS-ey-brg"/>
                         <outlet property="latestGo" destination="9EZ-pP-tFY" id="0BX-CT-5LB"/>
                         <outlet property="latestGoTime" destination="Dm7-za-3eU" id="f9r-9y-vbG"/>
-                        <outlet property="selectCity" destination="6Zy-GL-gnY" id="KDK-ww-XKN"/>
                         <outlet property="showGoTime" destination="xSm-JM-hUm" id="bmV-ZS-R1o"/>
-                        <outlet property="textBox" destination="i1C-M6-HNX" id="nqN-7K-EcZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCd-mn-HlQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
