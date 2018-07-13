@@ -74,3 +74,6 @@ https://www.simplifiedios.net/ios-registration-form-example/
 
 
 Issue solve:https://stackoverflow.com/questions/4219970/warning-mysql-connect-2002-no-such-file-or-directory-trying-to-connect-vi
+
+
+login:https://www.simplifiedios.net/xcode-login-screen-example/
