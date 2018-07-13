@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		467E57AA47A73207CBB05DAC /* Pods_LunaLaurenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C66BC0ED6D370E9CEB7CB4 /* Pods_LunaLaurenUITests.framework */; };
+		512CC87320F9002100403A43 /* LunaLauren.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 512CC87220F9002100403A43 /* LunaLauren.xcworkspace */; };
+		51557EA420F90820009FAC36 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51557EA320F90820009FAC36 /* registerViewController.swift */; };
 		515AD6EF20F468CD0039029D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515AD6EE20F468CC0039029D /* SWRevealViewController.m */; };
 		517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */; };
 		517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */; };
@@ -24,6 +27,8 @@
 		51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */; };
 		51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */; };
 		51D93A1120F649BC00A0AC24 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D93A1020F649BC00A0AC24 /* loginController.swift */; };
+		B683DC44B431C77EC088FB0D /* Pods_LunaLaurenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB06A96F08D6599260A92F0 /* Pods_LunaLaurenTests.framework */; };
+		BD21A0914AAAFAF8188954C1 /* Pods_LunaLauren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D004239F22695C07DF6995 /* Pods_LunaLauren.framework */; };
 		FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */; };
 		FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */; };
 		FA85252020F2FA4E004E1314 /* carpoolAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */; };
@@ -47,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AB06A96F08D6599260A92F0 /* Pods_LunaLaurenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunaLaurenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6A88EE087D78074CA97EC6 /* Pods-LunaLaurenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenUITests/Pods-LunaLaurenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		512CC87220F9002100403A43 /* LunaLauren.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = LunaLauren.xcworkspace; sourceTree = SOURCE_ROOT; };
+		51557EA320F90820009FAC36 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		515AD6ED20F468CC0039029D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		515AD6EE20F468CC0039029D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alreadySentAdViewController.swift; sourceTree = "<group>"; };
@@ -72,9 +81,16 @@
 		51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherViewController.swift; sourceTree = "<group>"; };
 		51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolViewController.swift; sourceTree = "<group>"; };
 		51D93A1020F649BC00A0AC24 /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
+		82435903E099FB6199B1F3E8 /* Pods-LunaLauren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLauren.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren.debug.xcconfig"; sourceTree = "<group>"; };
+		82512EA845DA1FD5962E8738 /* Pods-LunaLaurenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenUITests/Pods-LunaLaurenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82C66BC0ED6D370E9CEB7CB4 /* Pods_LunaLaurenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunaLaurenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18AB8C4781ABB7B241D987A /* Pods-LunaLaurenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenTests/Pods-LunaLaurenTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEBA7A9F01DF8AAC9F0921FA /* Pods-LunaLauren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLauren.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren.release.xcconfig"; sourceTree = "<group>"; };
+		F7D004239F22695C07DF6995 /* Pods_LunaLauren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunaLauren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewController.swift; sourceTree = "<group>"; };
 		FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendAdViewContronller.swift; sourceTree = "<group>"; };
 		FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpoolAdViewController.swift; sourceTree = "<group>"; };
+		FFEC25427B0CE9DBCBAC3723 /* Pods-LunaLaurenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenTests/Pods-LunaLaurenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD21A0914AAAFAF8188954C1 /* Pods_LunaLauren.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B683DC44B431C77EC088FB0D /* Pods_LunaLaurenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +114,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467E57AA47A73207CBB05DAC /* Pods_LunaLaurenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B18AF7117071F66BB06A03A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D004239F22695C07DF6995 /* Pods_LunaLauren.framework */,
+				2AB06A96F08D6599260A92F0 /* Pods_LunaLaurenTests.framework */,
+				82C66BC0ED6D370E9CEB7CB4 /* Pods_LunaLaurenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		518F57BA20EE89D300C97453 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +138,8 @@
 				518F57DA20EE89D700C97453 /* LunaLaurenTests */,
 				518F57E520EE89D700C97453 /* LunaLaurenUITests */,
 				518F57C420EE89D300C97453 /* Products */,
+				BF9D1CA23E726B891AF746EB /* Pods */,
+				0B18AF7117071F66BB06A03A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,11 +162,13 @@
 				517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */,
 				517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */,
 				FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */,
+				512CC87220F9002100403A43 /* LunaLauren.xcworkspace */,
 				51988B9E20F160DD00FA38F9 /* SWRevealViewController */,
 				518F57C620EE89D300C97453 /* AppDelegate.swift */,
 				518F57C820EE89D300C97453 /* ViewController.swift */,
 				51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */,
 				51988BA920F1777F00FA38F9 /* revealController.swift */,
+				51557EA320F90820009FAC36 /* registerViewController.swift */,
 				51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */,
 				51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */,
 				518F57CA20EE89D300C97453 /* Main.storyboard */,
@@ -176,6 +209,19 @@
 			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
+		BF9D1CA23E726B891AF746EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82435903E099FB6199B1F3E8 /* Pods-LunaLauren.debug.xcconfig */,
+				EEBA7A9F01DF8AAC9F0921FA /* Pods-LunaLauren.release.xcconfig */,
+				FFEC25427B0CE9DBCBAC3723 /* Pods-LunaLaurenTests.debug.xcconfig */,
+				A18AB8C4781ABB7B241D987A /* Pods-LunaLaurenTests.release.xcconfig */,
+				3D6A88EE087D78074CA97EC6 /* Pods-LunaLaurenUITests.debug.xcconfig */,
+				82512EA845DA1FD5962E8738 /* Pods-LunaLaurenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 518F57EB20EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLauren" */;
 			buildPhases = (
+				6412CA78BB9A404A8A0C0541 /* [CP] Check Pods Manifest.lock */,
 				518F57BF20EE89D300C97453 /* Sources */,
 				518F57C020EE89D300C97453 /* Frameworks */,
 				518F57C120EE89D300C97453 /* Resources */,
+				95E020E1B227FCD5E60ACD13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 518F57EE20EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLaurenTests" */;
 			buildPhases = (
+				5AC17AFE581937D59D44F121 /* [CP] Check Pods Manifest.lock */,
 				518F57D320EE89D700C97453 /* Sources */,
 				518F57D420EE89D700C97453 /* Frameworks */,
 				518F57D520EE89D700C97453 /* Resources */,
@@ -218,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 518F57F120EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLaurenUITests" */;
 			buildPhases = (
+				2E9FC2374486BF88F9660028 /* [CP] Check Pods Manifest.lock */,
 				518F57DE20EE89D700C97453 /* Sources */,
 				518F57DF20EE89D700C97453 /* Frameworks */,
 				518F57E020EE89D700C97453 /* Resources */,
@@ -282,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				518F57D120EE89D700C97453 /* LaunchScreen.storyboard in Resources */,
+				512CC87320F9002100403A43 /* LunaLauren.xcworkspace in Resources */,
 				518F57CE20EE89D700C97453 /* Assets.xcassets in Resources */,
 				518F57CC20EE89D300C97453 /* Main.storyboard in Resources */,
 			);
@@ -303,6 +354,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E9FC2374486BF88F9660028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LunaLaurenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC17AFE581937D59D44F121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LunaLaurenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6412CA78BB9A404A8A0C0541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LunaLauren-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E020E1B227FCD5E60ACD13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		518F57BF20EE89D300C97453 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -319,6 +445,7 @@
 				517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */,
 				517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */,
 				51988BA820F1638B00FA38F9 /* menuController.swift in Sources */,
+				51557EA420F90820009FAC36 /* registerViewController.swift in Sources */,
 				518F57C720EE89D300C97453 /* AppDelegate.swift in Sources */,
 				517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */,
 				FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */,
@@ -493,11 +620,12 @@
 		};
 		518F57EC20EE89D700C97453 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82435903E099FB6199B1F3E8 /* Pods-LunaLauren.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4679M4WZH6;
+				DEVELOPMENT_TEAM = 93B2NY6M8K;
 				INFOPLIST_FILE = LunaLauren/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -505,6 +633,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLauren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "LunaLauren/SWRevealViewController/LunaLauren-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -514,11 +643,12 @@
 		};
 		518F57ED20EE89D700C97453 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBA7A9F01DF8AAC9F0921FA /* Pods-LunaLauren.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4679M4WZH6;
+				DEVELOPMENT_TEAM = 93B2NY6M8K;
 				INFOPLIST_FILE = LunaLauren/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLauren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "LunaLauren/SWRevealViewController/LunaLauren-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,6 +665,7 @@
 		};
 		518F57EF20EE89D700C97453 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFEC25427B0CE9DBCBAC3723 /* Pods-LunaLaurenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +686,7 @@
 		};
 		518F57F020EE89D700C97453 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18AB8C4781ABB7B241D987A /* Pods-LunaLaurenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -574,6 +707,7 @@
 		};
 		518F57F220EE89D700C97453 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6A88EE087D78074CA97EC6 /* Pods-LunaLaurenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +727,7 @@
 		};
 		518F57F320EE89D700C97453 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82512EA845DA1FD5962E8738 /* Pods-LunaLaurenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_LunaLauren {
+  umbrella header "Pods-LunaLauren-umbrella.h"
+
+  export *
+  module * { export * }
+}
