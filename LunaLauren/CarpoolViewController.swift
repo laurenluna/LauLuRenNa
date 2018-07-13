@@ -15,29 +15,12 @@ class CarpoolViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        collectionView?.backgroundColor = UIColor.redColor()
+//        collectionView?.registerClass(cellClass: AnyClass?, forCellWithReuseIdentifier: String)
+
         // Do any additional setup after loading the view.
     }
-    //
-    //    let datePicker = UIDatePicker()
-    //    datePicker.datePickerMode = UIDatePickerMode.time
-    //    // datePicker.backgroundColor = UIColor.blue
-    //    //txtFildDeadLine.textField.inputView = datePicker
-    
-    @IBAction func goTime(_ sender: UIDatePicker) {
-        sender.datePickerMode = UIDatePickerMode.time
-        print(sender.date)
-        
-    }
-    @IBAction func arrTime(_ sender: UIDatePicker) {
-        sender.datePickerMode = UIDatePickerMode.time
-        print(sender.date)
-    }
-    
-//    @IBAction func timeline(_ sender: UITextField) {
-//        print(goTime(<#T##sender: UIDatePicker##UIDatePicker#>))
-//    }
 
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -48,6 +31,47 @@ class CarpoolViewController: UIViewController {
     @IBAction func goBack(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
+    
+    
+//    //-----------------------------------------------------------------------------
+//
+//    private let cellId = "cellId"
+//
+//
+//    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return 3
+//    }
+//
+//    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+//        return collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath as IndexPath)
+//    }
+//    }
+//
+//class FriendCell: UICollectionViewCell {
+//    override init(frame: CGRect) {
+//        super.init(frame: frame)
+//        setupViews()
+//    }
+//
+//    required init?(coder aDecoder: NSCoder){
+//        fatalError("error")
+//    }
+//
+//    func
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     /*
