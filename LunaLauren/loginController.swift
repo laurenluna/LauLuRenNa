@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import PerfectSession
-import PerfectSessionPostgresSQL
-import PerfectCrypto
+//import PerfectSession
+//import PerfectSessionPostgresSQL
+//import PerfectCrypto
 import LocalAuthentication
 
 

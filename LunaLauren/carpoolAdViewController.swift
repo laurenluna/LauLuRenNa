@@ -9,8 +9,11 @@
 import UIKit
 
 class carpoolAdViewController: UIViewController {
+    
+   
 
     var button = dropDownBtn()
+   // var b2 = dropDownBtn()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +30,31 @@ class carpoolAdViewController: UIViewController {
         button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         button.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
         
-        button.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 250).isActive = true
         button.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         button.dropView.dropDownOptions = ["Toronto","London","Hamilton","Waterloo"]
         
+        
+        
+       //---------------------------------
+//        b2 = dropDownBtn.init(frame: CGRect(x:0, y:0, width: 0, height: 0))
+//
+//        b2.setTitle("选择", for: .normal)
+//
+//        b2.translatesAutoresizingMaskIntoConstraints = false
+//
+//
+//        self.view.addSubview(b2)
+//
+//        b2.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+//        b2.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+//
+//        b2.widthAnchor.constraint(equalToConstant: 150).isActive = true
+//        b2.heightAnchor.constraint(equalToConstant: 40).isActive = true
+//
+//        b2.dropView.dropDownOptions = ["Toronto","London","Hamilton","Waterloo"]
+//
 
         // Do any additional setup after loading the view.
     }
@@ -84,22 +107,7 @@ class carpoolAdViewController: UIViewController {
         
     }
     
-    
-    
-    
-    
-    
-    //select departure city
 
-    
-
-    
-    
-    
-    
-    
-    
-    
    
     //------------------------------------------------------------------
     
@@ -114,6 +122,13 @@ class carpoolAdViewController: UIViewController {
     */
 
 }
+
+
+
+
+
+//select departure city
+
 
 protocol dropDownProtocol {
     func dropDownPressed(string: String)
@@ -262,7 +277,7 @@ class dropDownView: UIView, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
+        let cell = UITableViewCell()
         
         cell.textLabel?.text = dropDownOptions[indexPath.row]
         cell.backgroundColor = UIColor.darkGray
@@ -273,7 +288,7 @@ class dropDownView: UIView, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         self.delegate.dropDownPressed(string: dropDownOptions[indexPath.row])
-        self.tableView.deselectRow(at: <#T##IndexPath#>, animated: true)
+        self.tableView.deselectRow(at: indexPath, animated: true)
        
     }
     
