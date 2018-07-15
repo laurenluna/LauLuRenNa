@@ -34,6 +34,10 @@ class registerViewController: UIViewController {
             "phone":textFieldPhone.text!
         ]
         
+        
+        //alamofire JSON value transmittion
+        //post on website to get information
+        
         Alamofire.request(URL_USER_REGISTER, method: .post, parameters: parameters).responseJSON
             {
                 response in
