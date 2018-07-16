@@ -13,7 +13,7 @@ $response = array();
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if (isset($_POST['username']) && isset($_POST['password'])) {
-        
+
         $db = new DbOperation();
 
         if ($db->userLogin($_POST['username'], $_POST['password'])) {

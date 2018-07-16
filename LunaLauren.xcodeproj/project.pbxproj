@@ -23,6 +23,7 @@
 		518F57E720EE89D700C97453 /* LunaLaurenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57E620EE89D700C97453 /* LunaLaurenUITests.swift */; };
 		51988BA820F1638B00FA38F9 /* menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51988BA720F1638B00FA38F9 /* menuController.swift */; };
 		51988BAA20F1777F00FA38F9 /* revealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51988BA920F1777F00FA38F9 /* revealController.swift */; };
+		51A5ED0820FD0C7D00E291DF /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5ED0720FD0C7D00E291DF /* profileViewController.swift */; };
 		51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */; };
 		51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */; };
 		51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */; };
@@ -77,6 +78,7 @@
 		51988B9F20F1611D00FA38F9 /* LunaLauren-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LunaLauren-Bridging-Header.h"; sourceTree = "<group>"; };
 		51988BA720F1638B00FA38F9 /* menuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuController.swift; sourceTree = "<group>"; };
 		51988BA920F1777F00FA38F9 /* revealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revealController.swift; sourceTree = "<group>"; };
+		51A5ED0720FD0C7D00E291DF /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xianzhiViewController.swift; sourceTree = "<group>"; };
 		51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherViewController.swift; sourceTree = "<group>"; };
 		51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				51988B9E20F160DD00FA38F9 /* SWRevealViewController */,
 				518F57C620EE89D300C97453 /* AppDelegate.swift */,
 				518F57C820EE89D300C97453 /* ViewController.swift */,
+				51A5ED0720FD0C7D00E291DF /* profileViewController.swift */,
 				51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */,
 				51988BA920F1777F00FA38F9 /* revealController.swift */,
 				51557EA320F90820009FAC36 /* registerViewController.swift */,
@@ -450,6 +453,7 @@
 				517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */,
 				FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */,
 				FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */,
+				51A5ED0820FD0C7D00E291DF /* profileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
