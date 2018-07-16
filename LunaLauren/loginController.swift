@@ -52,6 +52,8 @@ class loginController: UIViewController {
                     self.defaultValues.set(userEmail, forKey:"useremail")
                     self.defaultValues.set(userPhone,forKey:"userphone")
                     
+                    self.performSegue(withIdentifier: "profileViewController", sender: self)
+                    
                     //let profileViewController = self.storyboard?.instantiateViewController(withIdentifier:"profileViewController") as! profileViewController
                     //self.navigationController?.showDetailViewController(profileViewController, sender: UIButton.self)
 
