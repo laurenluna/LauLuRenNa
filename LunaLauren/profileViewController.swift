@@ -30,7 +30,8 @@ class profileViewController: UIViewController {
             labelUserName.text = "已登录，你好： " + name
         }
         else{
-            labelUserName.text = "Luna,Lauren，当你们看到这条消息的时候！出bug啦！哈哈哈哈！！！"
+            labelUserName.text = "Luna,Lauren，当你们看到这条消息的时候！出bug啦！哈哈哈哈！！" +
+                                 "不知道是ui还是数据库还是alamofire反正就是出bug了，绝望吗？？"
         }
     }
 
