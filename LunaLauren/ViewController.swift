@@ -14,10 +14,15 @@ class ViewController: UIViewController {
         @IBOutlet weak var carpool: UIButton!
         @IBOutlet weak var xianzhi: UIButton!
         @IBOutlet weak var other: UIButton!
-
+    
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
+    
+    
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
             carpool.layer.cornerRadius = 30
@@ -28,6 +33,7 @@ class ViewController: UIViewController {
             menuButton.target = self.revealViewController()
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
  self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+            
             
         }
     }

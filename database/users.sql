@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2018-07-13 04:11:29
+-- Generation Time: 2018-07-16 19:17:45
 -- 服务器版本： 8.0.11
 -- PHP Version: 7.1.16
 
@@ -45,7 +45,11 @@ INSERT INTO `users` (`id`, `username`, `password`, `email`, `name`, `phone`) VAL
 (1, 'lunacao', '81dc9bdb52d04dc20036dbd8313ed055', 'lunacao214@outlook.com', 'luna cao', '5196948222'),
 (2, 'laurenlin', 'cb5e35fe0160c0a3439ecec60523ff30', 'imlinaixin@gmail.com', 'lauren lin', '1234567890'),
 (3, 'daidaishou', 'ecaa2899a0a43a91529200da8cf3b011', 'woshidaidaishou@gmail.com', 'dawang', '1234567812'),
-(4, 'lunalauren', 'f5bb0c8de146c67b44babbf4e6584cc0', '123123@gmail.com', 'lunalauren123', '1231231231');
+(4, 'lunalauren', 'f5bb0c8de146c67b44babbf4e6584cc0', '123123@gmail.com', 'lunalauren123', '1231231231'),
+(5, '1231231', '3ec3baf3455d78bfa771616fd0713aaa', '123132', '123123', '123123'),
+(6, '123123', '4297f44b13955235245b2497399d7a93', '1231231321', '123123', '12312313'),
+(7, 'slowking', 'bcd81651307516073efe6789757b5f0d', 'slowking@outlook,com', 'slowking', '1231233'),
+(8, 'test', '098f6bcd4621d373cade4e832627b4f6', 'test@gmail.com', 'test test', '123');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +69,7 @@ ALTER TABLE `users`
 -- 使用表AUTO_INCREMENT `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
