@@ -30,11 +30,11 @@ class carpoolAdViewController: UIViewController {
         button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         button.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
         
-<<<<<<< HEAD
+
         button.widthAnchor.constraint(equalToConstant: 150).isActive = true
-=======
+
         button.widthAnchor.constraint(equalToConstant: 100).isActive = true
->>>>>>> 5ce6611db6ec297aaac42ba1e3db36ecebb5ded8
+
         button.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         button.dropView.dropDownOptions = ["Toronto","London","Hamilton","Waterloo"]
