@@ -36,8 +36,11 @@ class carpoolAdViewController: UIViewController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 67cc347... Revert "chatting"
+=======
+>>>>>>> parent of 200a598... Revert "chatting"
 =======
 >>>>>>> parent of 200a598... Revert "chatting"
 
@@ -56,11 +59,14 @@ class carpoolAdViewController: UIViewController {
         button.widthAnchor.constraint(equalToConstant: 500).isActive = true
 >>>>>>> parent of 3b276bb... chatting
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         button.widthAnchor.constraint(equalToConstant: 500).isActive = true
 >>>>>>> parent of 3b276bb... chatting
 =======
 >>>>>>> parent of 67cc347... Revert "chatting"
+=======
+>>>>>>> parent of 200a598... Revert "chatting"
 =======
 >>>>>>> parent of 200a598... Revert "chatting"
         button.heightAnchor.constraint(equalToConstant: 40).isActive = true
