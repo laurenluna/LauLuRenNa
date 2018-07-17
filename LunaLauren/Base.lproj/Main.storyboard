@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!--View Controller-->
         <scene sceneID="2Vh-df-R2l">
             <objects>
@@ -222,6 +223,8 @@
             <point key="canvasLocation" x="-2702" y="377"/>
 >>>>>>> 5ce6611db6ec297aaac42ba1e3db36ecebb5ded8
         </scene>
+=======
+>>>>>>> parent of 3b276bb... chatting
 =======
 >>>>>>> parent of 3b276bb... chatting
 =======
@@ -1221,6 +1224,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <segue reference="mmZ-63-Igj"/>
         <segue reference="cHH-0t-HvD"/>
 =======
@@ -1228,6 +1232,10 @@
         <segue reference="crr-9h-A5m"/>
         <segue reference="bvM-xh-NyT"/>
 >>>>>>> 5ce6611db6ec297aaac42ba1e3db36ecebb5ded8
+=======
+        <segue reference="Mah-fw-5dh"/>
+        <segue reference="R4L-Gx-tJE"/>
+>>>>>>> parent of 3b276bb... chatting
 =======
         <segue reference="Mah-fw-5dh"/>
         <segue reference="R4L-Gx-tJE"/>
