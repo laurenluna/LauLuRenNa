@@ -41,11 +41,7 @@
             </objects>
             <point key="canvasLocation" x="-1572" y="-1944"/>
         </scene>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         <!--View Controller-->
         <scene sceneID="2Vh-df-R2l">
             <objects>
@@ -184,7 +180,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zea-Ec-GjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2386.4000000000001" y="-522.18890554722645"/>
-=======
         <!--Profile View Controller-->
         <scene sceneID="V4T-ic-EXe">
             <objects>
@@ -221,16 +216,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Vf-5l-Rkp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2702" y="377"/>
->>>>>>> 5ce6611db6ec297aaac42ba1e3db36ecebb5ded8
-        </scene>
-=======
->>>>>>> parent of 3b276bb... chatting
-=======
->>>>>>> parent of 3b276bb... chatting
-=======
->>>>>>> parent of 3b276bb... chatting
-=======
->>>>>>> parent of 3b276bb... chatting
+
         <!--My Messege View Controller-->
         <scene sceneID="dkS-Hr-icP">
             <objects>
@@ -1220,33 +1206,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         <segue reference="mmZ-63-Igj"/>
         <segue reference="cHH-0t-HvD"/>
-=======
+
         <segue reference="f0C-Pt-C9H"/>
         <segue reference="crr-9h-A5m"/>
         <segue reference="bvM-xh-NyT"/>
->>>>>>> 5ce6611db6ec297aaac42ba1e3db36ecebb5ded8
-=======
-        <segue reference="Mah-fw-5dh"/>
-        <segue reference="R4L-Gx-tJE"/>
->>>>>>> parent of 3b276bb... chatting
-=======
-        <segue reference="Mah-fw-5dh"/>
-        <segue reference="R4L-Gx-tJE"/>
->>>>>>> parent of 3b276bb... chatting
-=======
-        <segue reference="Mah-fw-5dh"/>
-        <segue reference="R4L-Gx-tJE"/>
->>>>>>> parent of 3b276bb... chatting
-=======
-        <segue reference="Mah-fw-5dh"/>
-        <segue reference="R4L-Gx-tJE"/>
->>>>>>> parent of 3b276bb... chatting
+
     </inferredMetricsTieBreakers>
 </document>
