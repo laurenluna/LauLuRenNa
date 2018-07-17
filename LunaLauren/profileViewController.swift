@@ -34,8 +34,12 @@ class profileViewController: UIViewController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             labelUserName.text = "Luna,Lauren，当你们看到这条消息的时候！出bug啦！哈哈哈哈！！" +
                                  "不知道是ui还是数据库还是alamofire反正就是出bug了，绝望吗？？"
+=======
+            labelUserName.text = "登录错误, 用户名或密码错误"
+>>>>>>> parent of 95dad31... 我成功了兄弟！！！！
 =======
             labelUserName.text = "登录错误, 用户名或密码错误"
 >>>>>>> parent of 95dad31... 我成功了兄弟！！！！
