@@ -30,7 +30,7 @@ class profileViewController: UIViewController {
             labelUserName.text = "已登录，你好： " + name
         }
         else{
-            labelUserName.text = "Luna,Lauren，当你们看到这条消息的时候！出bug啦！哈哈哈哈！！！"
+            labelUserName.text = "登录错误, 用户名或密码错误"
         }
     }
 
