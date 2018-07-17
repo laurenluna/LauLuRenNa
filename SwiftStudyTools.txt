@@ -86,3 +86,5 @@ https://pusher.com/tutorials/chat-swift/
 前端： https://www.ctolib.com/topics-83988.html
 
 
+ mysql.server start
+
