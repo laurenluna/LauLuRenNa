@@ -183,7 +183,7 @@
         <!--Profile View Controller-->
         <scene sceneID="V4T-ic-EXe">
             <objects>
-                <viewController storyboardIdentifier="profileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xuB-7a-3w3" customClass="profileViewController" customModule="LunaLauren" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profileViewController" id="xuB-7a-3w3" customClass="profileViewController" customModule="LunaLauren" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zYk-Cc-l3y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,6 +322,7 @@
                                 <state key="normal" title="确认登录"/>
                                 <connections>
                                     <action selector="buttonLogin:" destination="Eq6-Q5-sGv" eventType="touchUpInside" id="V9i-bO-EHz"/>
+                                    <segue destination="xuB-7a-3w3" kind="showDetail" id="fsR-J0-Wdp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b17-pu-ez2">
@@ -375,7 +376,6 @@
                         <outlet property="login" destination="QNs-4J-mLt" id="RCx-AC-hrJ"/>
                         <outlet property="textFieldPassword" destination="UzJ-wO-041" id="Nn7-CG-h5z"/>
                         <outlet property="textFieldUserName" destination="XBQ-ks-iy5" id="W3L-XC-08e"/>
-                        <segue destination="xuB-7a-3w3" kind="showDetail" identifier="profileViewController" id="6Sp-A5-uwe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Def-CE-CGJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1206,10 +1206,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
 
         <segue reference="mmZ-63-Igj"/>
         <segue reference="cHH-0t-HvD"/>
 
+=======
+        <segue reference="fsR-J0-Wdp"/>
+>>>>>>> parent of 95dad31... 我成功了兄弟！！！！
         <segue reference="f0C-Pt-C9H"/>
         <segue reference="crr-9h-A5m"/>
         <segue reference="bvM-xh-NyT"/>
