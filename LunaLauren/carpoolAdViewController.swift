@@ -40,6 +40,7 @@ class carpoolAdViewController: UIViewController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 67cc347... Revert "chatting"
 =======
@@ -88,6 +89,9 @@ class carpoolAdViewController: UIViewController {
 =======
 >>>>>>> 5ce6611db6ec297aaac42ba1e3db36ecebb5ded8
 >>>>>>> parent of ff0aa0a... change
+=======
+        button.widthAnchor.constraint(equalToConstant: 150).isActive = true
+>>>>>>> parent of 571a378... Merge branch 'master' of https://github.com/laurenluna/LauLuRenNa
         button.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         button.dropView.dropDownOptions = ["Toronto","London","Hamilton","Waterloo"]
