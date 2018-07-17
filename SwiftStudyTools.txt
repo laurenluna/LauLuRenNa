@@ -77,3 +77,12 @@ Issue solve:https://stackoverflow.com/questions/4219970/warning-mysql-connect-20
 
 
 login:https://www.simplifiedios.net/xcode-login-screen-example/
+
+
+Chatbox: https://github.com/leeh7/Smack
+https://pusher.com/tutorials/chat-swift/
+
+
+前端： https://www.ctolib.com/topics-83988.html
+
+
