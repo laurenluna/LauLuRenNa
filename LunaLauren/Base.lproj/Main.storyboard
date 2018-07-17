@@ -47,8 +47,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 67cc347... Revert "chatting"
+=======
+>>>>>>> parent of 200a598... Revert "chatting"
         <!--View Controller-->
         <scene sceneID="2Vh-df-R2l">
             <objects>
@@ -233,10 +236,13 @@
 >>>>>>> parent of 3b276bb... chatting
 =======
 >>>>>>> parent of 3b276bb... chatting
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 3b276bb... chatting
 =======
 >>>>>>> parent of 67cc347... Revert "chatting"
+=======
+>>>>>>> parent of 200a598... Revert "chatting"
         <!--My Messege View Controller-->
         <scene sceneID="dkS-Hr-icP">
             <objects>
@@ -1232,8 +1238,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 67cc347... Revert "chatting"
+=======
+>>>>>>> parent of 200a598... Revert "chatting"
         <segue reference="mmZ-63-Igj"/>
         <segue reference="cHH-0t-HvD"/>
 =======
@@ -1254,11 +1263,14 @@
         <segue reference="Mah-fw-5dh"/>
         <segue reference="R4L-Gx-tJE"/>
 >>>>>>> parent of 3b276bb... chatting
+<<<<<<< HEAD
 =======
         <segue reference="Mah-fw-5dh"/>
         <segue reference="R4L-Gx-tJE"/>
 >>>>>>> parent of 3b276bb... chatting
 =======
 >>>>>>> parent of 67cc347... Revert "chatting"
+=======
+>>>>>>> parent of 200a598... Revert "chatting"
     </inferredMetricsTieBreakers>
 </document>
