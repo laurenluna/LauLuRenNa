@@ -42,7 +42,6 @@
             </objects>
             <point key="canvasLocation" x="-1572" y="-1944"/>
         </scene>
-
         <!--Profile View Controller-->
         <scene sceneID="V4T-ic-EXe">
             <objects>
@@ -52,14 +51,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="    " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74g-Sw-KFt">
-                                <rect key="frame" x="56" y="223" width="254" height="79"/>
+                                <rect key="frame" x="60" y="351" width="254" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1Q-7B-gaB">
-                                <rect key="frame" x="161" y="407" width="45" height="39"/>
+                                <rect key="frame" x="161" y="483" width="45" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="登出"/>
@@ -68,18 +67,30 @@
                                     <segue destination="Eq6-Q5-sGv" kind="showDetail" id="bvM-xh-NyT"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fVL-jn-hiK">
+                                <rect key="frame" x="102" y="100" width="171" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba4-gh-ZhH">
+                                <rect key="frame" x="156" y="257" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="上传头像"/>
+                                <connections>
+                                    <action selector="upload:" destination="xuB-7a-3w3" eventType="touchUpInside" id="zP7-tC-Fng"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="SQ2-R9-kti"/>
                     </view>
                     <connections>
                         <outlet property="labelUserName" destination="74g-Sw-KFt" id="SUO-m2-RmS"/>
+                        <outlet property="userImage" destination="fVL-jn-hiK" id="fZa-eH-P0U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Vf-5l-Rkp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2702" y="377"/>
-
+            <point key="canvasLocation" x="-2703.1999999999998" y="375.56221889055473"/>
         </scene>
         <!--My Messege View Controller-->
         <scene sceneID="dkS-Hr-icP">
@@ -1134,10 +1145,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-
         <segue reference="f0C-Pt-C9H"/>
         <segue reference="crr-9h-A5m"/>
         <segue reference="bvM-xh-NyT"/>
-
     </inferredMetricsTieBreakers>
 </document>

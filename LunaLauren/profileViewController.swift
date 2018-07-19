@@ -7,10 +7,56 @@
 //
 
 import UIKit
+import Alamofire
 
-class profileViewController: UIViewController {
+class profileViewController: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
+    
+    //let URL_USER_IMAGE = "http://localhost/phpFile/v1/imageUpload.php"
 
     @IBOutlet weak var labelUserName: UILabel!
+    
+    @IBOutlet weak var userImage: UIImageView!
+    
+    //click on the picture
+
+    @IBAction func upload(_ sender: AnyObject) {
+        let image = UIImagePickerController()
+        image.delegate = self
+        image.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        
+        image.allowsEditing = false
+        
+        self.present(image, animated:true){
+         //after it is complete
+        }
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage{
+            userImage.image = image
+        }
+        else{
+            //error message
+        }
+        
+        self.dismiss(animated: true,completion: nil)
+        
+        
+        //upload to server
+        
+        myImageUploadRequest()
+        
+        
+        
+    }
+    
+    func myImageUploadRequest(){
+        //
+    }
+    
+    
+    
     
     @IBAction func logout(_ sender: UIButton) {
         UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
@@ -34,6 +80,8 @@ class profileViewController: UIViewController {
                                  "不知道是ui还是数据库还是alamofire反正就是出bug了，绝望吗？？"
         }
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
