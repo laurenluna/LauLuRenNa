@@ -7,7 +7,11 @@
 		<key>llv2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD:llv2.xcodeproj/xcuserdata/CrazyDiamond.xcuserdatad/xcschemes/xcschememanagement.plist
 			<integer>20</integer>
+=======
+			<integer>4</integer>
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b:LunaLauren.xcodeproj/xcuserdata/CrazyDiamond.xcuserdatad/xcschemes/xcschememanagement.plist
 		</dict>
 	</dict>
 </dict>

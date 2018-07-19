@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467E57AA47A73207CBB05DAC /* Pods_LunaLaurenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C66BC0ED6D370E9CEB7CB4 /* Pods_LunaLaurenUITests.framework */; };
+		512CC87320F9002100403A43 /* LunaLauren.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 512CC87220F9002100403A43 /* LunaLauren.xcworkspace */; };
+		51557EA420F90820009FAC36 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51557EA320F90820009FAC36 /* registerViewController.swift */; };
+		515AD6EF20F468CD0039029D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515AD6EE20F468CC0039029D /* SWRevealViewController.m */; };
+		517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */; };
+		517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */; };
+		518F57C720EE89D300C97453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57C620EE89D300C97453 /* AppDelegate.swift */; };
+		518F57C920EE89D300C97453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57C820EE89D300C97453 /* ViewController.swift */; };
+		518F57CC20EE89D300C97453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518F57CA20EE89D300C97453 /* Main.storyboard */; };
+		518F57CE20EE89D700C97453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518F57CD20EE89D700C97453 /* Assets.xcassets */; };
+		518F57D120EE89D700C97453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518F57CF20EE89D700C97453 /* LaunchScreen.storyboard */; };
+		518F57DC20EE89D700C97453 /* LunaLaurenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57DB20EE89D700C97453 /* LunaLaurenTests.swift */; };
+		518F57E720EE89D700C97453 /* LunaLaurenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57E620EE89D700C97453 /* LunaLaurenUITests.swift */; };
+		51988BA820F1638B00FA38F9 /* menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51988BA720F1638B00FA38F9 /* menuController.swift */; };
+		51988BAA20F1777F00FA38F9 /* revealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51988BA920F1777F00FA38F9 /* revealController.swift */; };
+		51A5ED0820FD0C7D00E291DF /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5ED0720FD0C7D00E291DF /* profileViewController.swift */; };
+		51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */; };
+		51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */; };
+		51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */; };
+		51D93A1120F649BC00A0AC24 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D93A1020F649BC00A0AC24 /* loginController.swift */; };
+		B683DC44B431C77EC088FB0D /* Pods_LunaLaurenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB06A96F08D6599260A92F0 /* Pods_LunaLaurenTests.framework */; };
+		BD21A0914AAAFAF8188954C1 /* Pods_LunaLauren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D004239F22695C07DF6995 /* Pods_LunaLauren.framework */; };
+		FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */; };
+		FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */; };
+		FA85252020F2FA4E004E1314 /* carpoolAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518F57D820EE89D700C97453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518F57BB20EE89D300C97453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518F57C220EE89D300C97453;
+			remoteInfo = LunaLauren;
+		};
+		518F57E320EE89D700C97453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518F57BB20EE89D300C97453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518F57C220EE89D300C97453;
+			remoteInfo = LunaLauren;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AB06A96F08D6599260A92F0 /* Pods_LunaLaurenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunaLaurenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6A88EE087D78074CA97EC6 /* Pods-LunaLaurenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenUITests/Pods-LunaLaurenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		512CC87220F9002100403A43 /* LunaLauren.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = LunaLauren.xcworkspace; sourceTree = SOURCE_ROOT; };
+		51557EA320F90820009FAC36 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		515AD6ED20F468CC0039029D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		515AD6EE20F468CC0039029D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alreadySentAdViewController.swift; sourceTree = "<group>"; };
+		517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
+		518F57C320EE89D300C97453 /* LunaLauren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunaLauren.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		518F57C620EE89D300C97453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		518F57C820EE89D300C97453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		518F57CB20EE89D300C97453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518F57CD20EE89D700C97453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		518F57D020EE89D700C97453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		518F57D220EE89D700C97453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518F57D720EE89D700C97453 /* LunaLaurenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunaLaurenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518F57DB20EE89D700C97453 /* LunaLaurenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaLaurenTests.swift; sourceTree = "<group>"; };
+		518F57DD20EE89D700C97453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518F57E220EE89D700C97453 /* LunaLaurenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunaLaurenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518F57E620EE89D700C97453 /* LunaLaurenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaLaurenUITests.swift; sourceTree = "<group>"; };
+		518F57E820EE89D700C97453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51988B9F20F1611D00FA38F9 /* LunaLauren-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LunaLauren-Bridging-Header.h"; sourceTree = "<group>"; };
+		51988BA720F1638B00FA38F9 /* menuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuController.swift; sourceTree = "<group>"; };
+		51988BA920F1777F00FA38F9 /* revealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revealController.swift; sourceTree = "<group>"; };
+		51A5ED0720FD0C7D00E291DF /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xianzhiViewController.swift; sourceTree = "<group>"; };
+		51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherViewController.swift; sourceTree = "<group>"; };
+		51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolViewController.swift; sourceTree = "<group>"; };
+		51D93A1020F649BC00A0AC24 /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
+		82435903E099FB6199B1F3E8 /* Pods-LunaLauren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLauren.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren.debug.xcconfig"; sourceTree = "<group>"; };
+		82512EA845DA1FD5962E8738 /* Pods-LunaLaurenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenUITests/Pods-LunaLaurenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82C66BC0ED6D370E9CEB7CB4 /* Pods_LunaLaurenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunaLaurenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18AB8C4781ABB7B241D987A /* Pods-LunaLaurenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenTests/Pods-LunaLaurenTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEBA7A9F01DF8AAC9F0921FA /* Pods-LunaLauren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLauren.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren.release.xcconfig"; sourceTree = "<group>"; };
+		F7D004239F22695C07DF6995 /* Pods_LunaLauren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunaLauren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewController.swift; sourceTree = "<group>"; };
+		FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendAdViewContronller.swift; sourceTree = "<group>"; };
+		FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpoolAdViewController.swift; sourceTree = "<group>"; };
+		FFEC25427B0CE9DBCBAC3723 /* Pods-LunaLaurenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunaLaurenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunaLaurenTests/Pods-LunaLaurenTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518F57C020EE89D300C97453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD21A0914AAAFAF8188954C1 /* Pods_LunaLauren.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518F57D420EE89D700C97453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683DC44B431C77EC088FB0D /* Pods_LunaLaurenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518F57DF20EE89D700C97453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467E57AA47A73207CBB05DAC /* Pods_LunaLaurenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B18AF7117071F66BB06A03A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D004239F22695C07DF6995 /* Pods_LunaLauren.framework */,
+				2AB06A96F08D6599260A92F0 /* Pods_LunaLaurenTests.framework */,
+				82C66BC0ED6D370E9CEB7CB4 /* Pods_LunaLaurenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		518F57BA20EE89D300C97453 = {
+			isa = PBXGroup;
+			children = (
+				518F57C520EE89D300C97453 /* LunaLauren */,
+				518F57DA20EE89D700C97453 /* LunaLaurenTests */,
+				518F57E520EE89D700C97453 /* LunaLaurenUITests */,
+				518F57C420EE89D300C97453 /* Products */,
+				BF9D1CA23E726B891AF746EB /* Pods */,
+				0B18AF7117071F66BB06A03A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		518F57C420EE89D300C97453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518F57C320EE89D300C97453 /* LunaLauren.app */,
+				518F57D720EE89D700C97453 /* LunaLaurenTests.xctest */,
+				518F57E220EE89D700C97453 /* LunaLaurenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518F57C520EE89D300C97453 /* LunaLauren */ = {
+			isa = PBXGroup;
+			children = (
+				FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */,
+				FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */,
+				517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */,
+				517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */,
+				FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */,
+				512CC87220F9002100403A43 /* LunaLauren.xcworkspace */,
+				51988B9E20F160DD00FA38F9 /* SWRevealViewController */,
+				518F57C620EE89D300C97453 /* AppDelegate.swift */,
+				518F57C820EE89D300C97453 /* ViewController.swift */,
+				51A5ED0720FD0C7D00E291DF /* profileViewController.swift */,
+				51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */,
+				51988BA920F1777F00FA38F9 /* revealController.swift */,
+				51557EA320F90820009FAC36 /* registerViewController.swift */,
+				51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */,
+				51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */,
+				518F57CA20EE89D300C97453 /* Main.storyboard */,
+				51D93A1020F649BC00A0AC24 /* loginController.swift */,
+				518F57CD20EE89D700C97453 /* Assets.xcassets */,
+				518F57CF20EE89D700C97453 /* LaunchScreen.storyboard */,
+				518F57D220EE89D700C97453 /* Info.plist */,
+				51988BA720F1638B00FA38F9 /* menuController.swift */,
+			);
+			path = LunaLauren;
+			sourceTree = "<group>";
+		};
+		518F57DA20EE89D700C97453 /* LunaLaurenTests */ = {
+			isa = PBXGroup;
+			children = (
+				518F57DB20EE89D700C97453 /* LunaLaurenTests.swift */,
+				518F57DD20EE89D700C97453 /* Info.plist */,
+			);
+			path = LunaLaurenTests;
+			sourceTree = "<group>";
+		};
+		518F57E520EE89D700C97453 /* LunaLaurenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				518F57E620EE89D700C97453 /* LunaLaurenUITests.swift */,
+				518F57E820EE89D700C97453 /* Info.plist */,
+			);
+			path = LunaLaurenUITests;
+			sourceTree = "<group>";
+		};
+		51988B9E20F160DD00FA38F9 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				515AD6ED20F468CC0039029D /* SWRevealViewController.h */,
+				515AD6EE20F468CC0039029D /* SWRevealViewController.m */,
+				51988B9F20F1611D00FA38F9 /* LunaLauren-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		BF9D1CA23E726B891AF746EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82435903E099FB6199B1F3E8 /* Pods-LunaLauren.debug.xcconfig */,
+				EEBA7A9F01DF8AAC9F0921FA /* Pods-LunaLauren.release.xcconfig */,
+				FFEC25427B0CE9DBCBAC3723 /* Pods-LunaLaurenTests.debug.xcconfig */,
+				A18AB8C4781ABB7B241D987A /* Pods-LunaLaurenTests.release.xcconfig */,
+				3D6A88EE087D78074CA97EC6 /* Pods-LunaLaurenUITests.debug.xcconfig */,
+				82512EA845DA1FD5962E8738 /* Pods-LunaLaurenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518F57C220EE89D300C97453 /* LunaLauren */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518F57EB20EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLauren" */;
+			buildPhases = (
+				6412CA78BB9A404A8A0C0541 /* [CP] Check Pods Manifest.lock */,
+				518F57BF20EE89D300C97453 /* Sources */,
+				518F57C020EE89D300C97453 /* Frameworks */,
+				518F57C120EE89D300C97453 /* Resources */,
+				95E020E1B227FCD5E60ACD13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunaLauren;
+			productName = LunaLauren;
+			productReference = 518F57C320EE89D300C97453 /* LunaLauren.app */;
+			productType = "com.apple.product-type.application";
+		};
+		518F57D620EE89D700C97453 /* LunaLaurenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518F57EE20EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLaurenTests" */;
+			buildPhases = (
+				5AC17AFE581937D59D44F121 /* [CP] Check Pods Manifest.lock */,
+				518F57D320EE89D700C97453 /* Sources */,
+				518F57D420EE89D700C97453 /* Frameworks */,
+				518F57D520EE89D700C97453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518F57D920EE89D700C97453 /* PBXTargetDependency */,
+			);
+			name = LunaLaurenTests;
+			productName = LunaLaurenTests;
+			productReference = 518F57D720EE89D700C97453 /* LunaLaurenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		518F57E120EE89D700C97453 /* LunaLaurenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518F57F120EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLaurenUITests" */;
+			buildPhases = (
+				2E9FC2374486BF88F9660028 /* [CP] Check Pods Manifest.lock */,
+				518F57DE20EE89D700C97453 /* Sources */,
+				518F57DF20EE89D700C97453 /* Frameworks */,
+				518F57E020EE89D700C97453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518F57E420EE89D700C97453 /* PBXTargetDependency */,
+			);
+			name = LunaLaurenUITests;
+			productName = LunaLaurenUITests;
+			productReference = 518F57E220EE89D700C97453 /* LunaLaurenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518F57BB20EE89D300C97453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Luna Cao";
+				TargetAttributes = {
+					518F57C220EE89D300C97453 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					518F57D620EE89D700C97453 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 518F57C220EE89D300C97453;
+					};
+					518F57E120EE89D700C97453 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 518F57C220EE89D300C97453;
+					};
+				};
+			};
+			buildConfigurationList = 518F57BE20EE89D300C97453 /* Build configuration list for PBXProject "LunaLauren" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518F57BA20EE89D300C97453;
+			productRefGroup = 518F57C420EE89D300C97453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518F57C220EE89D300C97453 /* LunaLauren */,
+				518F57D620EE89D700C97453 /* LunaLaurenTests */,
+				518F57E120EE89D700C97453 /* LunaLaurenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518F57C120EE89D300C97453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518F57D120EE89D700C97453 /* LaunchScreen.storyboard in Resources */,
+				512CC87320F9002100403A43 /* LunaLauren.xcworkspace in Resources */,
+				518F57CE20EE89D700C97453 /* Assets.xcassets in Resources */,
+				518F57CC20EE89D300C97453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518F57D520EE89D700C97453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518F57E020EE89D700C97453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E9FC2374486BF88F9660028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LunaLaurenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC17AFE581937D59D44F121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LunaLaurenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6412CA78BB9A404A8A0C0541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LunaLauren-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E020E1B227FCD5E60ACD13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunaLauren/Pods-LunaLauren-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518F57BF20EE89D300C97453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */,
+				FA85252020F2FA4E004E1314 /* carpoolAdViewController.swift in Sources */,
+				515AD6EF20F468CD0039029D /* SWRevealViewController.m in Sources */,
+				51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */,
+				51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */,
+				518F57C920EE89D300C97453 /* ViewController.swift in Sources */,
+				51D93A1120F649BC00A0AC24 /* loginController.swift in Sources */,
+				51988BAA20F1777F00FA38F9 /* revealController.swift in Sources */,
+				517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */,
+				51988BA820F1638B00FA38F9 /* menuController.swift in Sources */,
+				51557EA420F90820009FAC36 /* registerViewController.swift in Sources */,
+				518F57C720EE89D300C97453 /* AppDelegate.swift in Sources */,
+				517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */,
+				FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */,
+				FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */,
+				51A5ED0820FD0C7D00E291DF /* profileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518F57D320EE89D700C97453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518F57DC20EE89D700C97453 /* LunaLaurenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518F57DE20EE89D700C97453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518F57E720EE89D700C97453 /* LunaLaurenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		518F57D920EE89D700C97453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518F57C220EE89D300C97453 /* LunaLauren */;
+			targetProxy = 518F57D820EE89D700C97453 /* PBXContainerItemProxy */;
+		};
+		518F57E420EE89D700C97453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518F57C220EE89D300C97453 /* LunaLauren */;
+			targetProxy = 518F57E320EE89D700C97453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		518F57CA20EE89D300C97453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518F57CB20EE89D300C97453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		518F57CF20EE89D700C97453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518F57D020EE89D700C97453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518F57E920EE89D700C97453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		518F57EA20EE89D700C97453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518F57EC20EE89D700C97453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82435903E099FB6199B1F3E8 /* Pods-LunaLauren.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93B2NY6M8K;
+				INFOPLIST_FILE = LunaLauren/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLauren;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LunaLauren/SWRevealViewController/LunaLauren-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		518F57ED20EE89D700C97453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBA7A9F01DF8AAC9F0921FA /* Pods-LunaLauren.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93B2NY6M8K;
+				INFOPLIST_FILE = LunaLauren/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLauren;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LunaLauren/SWRevealViewController/LunaLauren-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		518F57EF20EE89D700C97453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFEC25427B0CE9DBCBAC3723 /* Pods-LunaLaurenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LunaLaurenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLaurenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunaLauren.app/LunaLauren";
+			};
+			name = Debug;
+		};
+		518F57F020EE89D700C97453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18AB8C4781ABB7B241D987A /* Pods-LunaLaurenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LunaLaurenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLaurenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunaLauren.app/LunaLauren";
+			};
+			name = Release;
+		};
+		518F57F220EE89D700C97453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6A88EE087D78074CA97EC6 /* Pods-LunaLaurenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LunaLaurenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLaurenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunaLauren;
+			};
+			name = Debug;
+		};
+		518F57F320EE89D700C97453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82512EA845DA1FD5962E8738 /* Pods-LunaLaurenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LunaLaurenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prototypeprojectlaulu.LunaLaurenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunaLauren;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518F57BE20EE89D300C97453 /* Build configuration list for PBXProject "LunaLauren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518F57E920EE89D700C97453 /* Debug */,
+				518F57EA20EE89D700C97453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518F57EB20EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLauren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518F57EC20EE89D700C97453 /* Debug */,
+				518F57ED20EE89D700C97453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518F57EE20EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLaurenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518F57EF20EE89D700C97453 /* Debug */,
+				518F57F020EE89D700C97453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518F57F120EE89D700C97453 /* Build configuration list for PBXNativeTarget "LunaLaurenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518F57F220EE89D700C97453 /* Debug */,
+				518F57F320EE89D700C97453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518F57BB20EE89D300C97453 /* Project object */;
+}

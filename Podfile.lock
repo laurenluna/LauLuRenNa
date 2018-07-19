@@ -1,4 +1,5 @@
 PODS:
+<<<<<<< HEAD
   - BoringSSL (10.0.5):
     - BoringSSL/Implementation (= 10.0.5)
     - BoringSSL/Interface (= 10.0.5)
@@ -148,5 +149,20 @@ SPEC CHECKSUMS:
   Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
 
 PODFILE CHECKSUM: ecaf80bf6d50868fc081c24ec2763b79ad827ab9
+=======
+  - Alamofire (4.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+
+PODFILE CHECKSUM: 82fb839ae7f9a3ff73966513670b63a3c477e0eb
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b
 
 COCOAPODS: 1.5.3

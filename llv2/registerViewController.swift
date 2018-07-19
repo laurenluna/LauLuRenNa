@@ -7,7 +7,9 @@
 //
 
 import UIKit
+//import SwiftKeychainWrapper
 
+<<<<<<< HEAD:llv2/registerViewController.swift
 class registerViewController: UIViewController {
     
 
@@ -22,16 +24,23 @@ class registerViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+=======
+//class myMessegeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b:LunaLauren/myMessegeViewController.swift
     
+//    @IBOutlet weak var tableView: UITableView!
+//    
+//    override func
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        <#code#>
+//    }
+//    
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        <#code#>
+//    }
+//    
 
-    /*
-    // MARK: - Navigation
+//}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
-}
+

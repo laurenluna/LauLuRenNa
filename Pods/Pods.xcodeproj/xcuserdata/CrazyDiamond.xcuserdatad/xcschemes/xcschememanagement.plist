@@ -4,34 +4,51 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>BoringSSL.xcscheme</key>
+=======
+		<key>Alamofire.xcscheme</key>
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>FirebaseAuth.xcscheme</key>
+=======
+		<key>Pods-LunaLauren.xcscheme</key>
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>FirebaseCore.xcscheme</key>
+=======
+		<key>Pods-LunaLaurenTests.xcscheme</key>
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>FirebaseDatabase.xcscheme</key>
+=======
+		<key>Pods-LunaLaurenUITests.xcscheme</key>
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>FirebaseFirestore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -144,6 +161,8 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+=======
+>>>>>>> 357db4aa867d695b07c3cdcf48f835196ca0423b
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>

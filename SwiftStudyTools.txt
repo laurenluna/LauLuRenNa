@@ -1,0 +1,110 @@
+ Swift handbook: https://docs.swift.org/swift-book/
+
+Swift & Json: https://blog.csdn.net/allanGold/article/details/78981163
+
+Swift Chinese: http://www.runoob.com/swift/swift-tutorial.html
+
+Cocoa bbs: http://www.cocoachina.com/special/fornew.html
+
+Sqlite Swift:https://blog.csdn.net/zhang5690800/article/details/77576404
+
+Another sqlite for swift tutorial: https://itisjoe.gitbooks.io/swiftgo/content/database/sqlite.html
+
+http://www.hangge.com/blog/cache/detail_645.html
+
+
+侧滑菜单：http://www.hangge.com/blog/cache/detail_1028.html
+侧滑菜单升级：http://www.hangge.com/blog/cache/detail_1035.html
+
+Swift 侧滑菜单+header: https://www.appcoda.com/sidebar-menu-swift/
+
+login：http://www.kaleidosblog.com/how-to-create-a-login-screen-page-in-swift-3-authenticate-an-user-and-keep-the-session-active
+Php/mysql login: https://www.simplifiedios.net/xcode-login-screen-example/
+
+
+第三方登录: https://www.jianshu.com/p/3c9e25e493c6
+
+猫头鹰login动画：http://www.hangge.com/blog/cache/detail_927.html
+
+
+Perfect---
+https://github.com/PerfectlySoft/Perfect-Authentication. 
+https://github.com/ShowJoy-com/showjoy-blog/issues/29
+
+perfect框架概况
+https://xiaozhuanlan.com/topic/1984576032
+
+
+final: https://www.jianshu.com/p/a4741a89f679
+
+
+
+https://juejin.im/post/5a2149aaf265da431a42ff17.  安装sql
+
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+
+https://perfect.org/docs/gettingStarted_zh_CN.html
+
+
+
+Authentication video: https://www.youtube.com/watch?v=y2hiaoaRBQ0
+
+
+brew services start postgresql
+
+Postgres setup:http://fengliner.github.io/2016/01/05/Mac下PostgreSql的安装与使用/
+
+Postgres for perfect: https://github.com/PerfectlySoft/Perfect-PostgreSQL
+
+https://perfect.org/docs/authentication_zh_CN.html
+
+
+
+
+https://blog.csdn.net/u012411532/article/details/51753878
+https://www.cnblogs.com/ludashi/p/6179711.html
+http://blog.51cto.com/winners/2048908
+https://www.jianshu.com/p/d5a060878449
+
+
+https://www.simplifiedios.net/ios-registration-form-example/
+
+
+Issue solve:https://stackoverflow.com/questions/4219970/warning-mysql-connect-2002-no-such-file-or-directory-trying-to-connect-vi
+
+
+login:https://www.simplifiedios.net/xcode-login-screen-example/
+
+
+Chatbox: https://github.com/leeh7/Smack
+https://pusher.com/tutorials/chat-swift/
+
+
+前端： https://www.ctolib.com/topics-83988.html
+
+
+ mysql.server start
+
+
+
+Icon------
+头像https://blog.csdn.net/wei_chong_chong/article/details/52610713
+http://www.hangge.com/blog/cache/detail_1174.html
+https://solarianprogrammer.com/2017/05/02/swift-alamofire-tutorial-uploading-downloading-images/
+
+
+Swift php:http://swiftdeveloperblog.com/image-upload-example/
+https://medium.com/@adinugroho/upload-image-from-ios-app-using-alamofire-ecc6ad7fccc
+https://www.jianshu.com/p/6da2bbbff26d 用户头像
+
+
+Php & database-----
+https://blog.csdn.net/mangck/article/details/78896052
+数据库http://www.xiaoyaoli.com/?p=1860
+
+
+
+阿里云：https://www.alibabacloud.com/zh/product/apsaradb-for-rds?spm=a2796.7919406.1097650.dznavproductsd1.72d86ecfZ4Qtbt#pricing
