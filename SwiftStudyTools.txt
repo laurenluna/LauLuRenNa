@@ -88,3 +88,15 @@ https://pusher.com/tutorials/chat-swift/
 
  mysql.server start
 
+
+
+Icon------
+头像https://blog.csdn.net/wei_chong_chong/article/details/52610713
+http://www.hangge.com/blog/cache/detail_1174.html
+https://solarianprogrammer.com/2017/05/02/swift-alamofire-tutorial-uploading-downloading-images/
+
+Ui端工作：https://lvtao.net/ios/509.html
+
+Swift php:http://swiftdeveloperblog.com/image-upload-example/
+https://medium.com/@adinugroho/upload-image-from-ios-app-using-alamofire-ecc6ad7fccc
+https://www.jianshu.com/p/6da2bbbff26d 用户头像
