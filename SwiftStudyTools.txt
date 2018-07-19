@@ -100,3 +100,8 @@ Ui端工作：https://lvtao.net/ios/509.html
 Swift php:http://swiftdeveloperblog.com/image-upload-example/
 https://medium.com/@adinugroho/upload-image-from-ios-app-using-alamofire-ecc6ad7fccc
 https://www.jianshu.com/p/6da2bbbff26d 用户头像
+
+
+Php & database-----
+https://blog.csdn.net/mangck/article/details/78896052
+数据库http://www.xiaoyaoli.com/?p=1860
