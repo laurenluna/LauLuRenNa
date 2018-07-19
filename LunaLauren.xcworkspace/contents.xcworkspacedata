@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LunaLauren/MessageVC.swift">
+   </FileRef>
+   <FileRef
       location = "group:LunaLauren.xcodeproj">
    </FileRef>
    <FileRef

@@ -13,7 +13,6 @@
 		515AD6EF20F468CD0039029D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515AD6EE20F468CC0039029D /* SWRevealViewController.m */; };
 		517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */; };
 		517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */; };
-		517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */; };
 		518F57C720EE89D300C97453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57C620EE89D300C97453 /* AppDelegate.swift */; };
 		518F57C920EE89D300C97453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57C820EE89D300C97453 /* ViewController.swift */; };
 		518F57CC20EE89D300C97453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518F57CA20EE89D300C97453 /* Main.storyboard */; };
@@ -61,7 +60,6 @@
 		515AD6EE20F468CC0039029D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alreadySentAdViewController.swift; sourceTree = "<group>"; };
 		517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
-		517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMessegeViewController.swift; sourceTree = "<group>"; };
 		518F57C320EE89D300C97453 /* LunaLauren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunaLauren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		518F57C620EE89D300C97453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		518F57C820EE89D300C97453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 				FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */,
 				517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */,
 				517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */,
-				517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */,
 				FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */,
 				512CC87220F9002100403A43 /* LunaLauren.xcworkspace */,
 				51988B9E20F160DD00FA38F9 /* SWRevealViewController */,
@@ -445,7 +442,6 @@
 				518F57C920EE89D300C97453 /* ViewController.swift in Sources */,
 				51D93A1120F649BC00A0AC24 /* loginController.swift in Sources */,
 				51988BAA20F1777F00FA38F9 /* revealController.swift in Sources */,
-				517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */,
 				517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */,
 				51988BA820F1638B00FA38F9 /* menuController.swift in Sources */,
 				51557EA420F90820009FAC36 /* registerViewController.swift in Sources */,
