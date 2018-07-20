@@ -42,9 +42,20 @@ class registerViewController: UIViewController {
             user,error in
             if error == nil && user != nil {
                 self.labelText.text = "成功创建！"
+                
+                let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
+                changeRequest?.displayName = username
+                changeRequest?.commitChanges{error in
+                    if error == nil{
+                        //转到profile
+                        self.performSegue(withIdentifier: "registerComplete", sender: self)
+                            
+                    }
+                    
+                }
             }
             else{
-                self.labelText.text = "创建失败"
+                self.labelText.text = "创建失败，用户已存在或数值错误（密码过短邮箱不符等）"
             }
         }
         
