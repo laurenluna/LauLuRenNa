@@ -7,10 +7,49 @@
 //
 
 import UIKit
+import Firebase
 
 class registerViewController: UIViewController {
     
-
+    
+    @IBOutlet weak var emailField: UITextField!
+    
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBOutlet weak var usernameField: UITextField!
+    
+    @IBOutlet weak var continueButton: UIButton!
+    
+    @IBOutlet weak var labelText: UILabel!
+    
+    
+    //user signup
+    @IBAction func handleSignUp(_ sender: UIButton) {
+        
+        guard let username = usernameField.text else {
+            return
+        }
+        
+        guard let email = emailField.text else{
+            return
+        }
+        
+        guard let pass = passwordField.text else{
+            return
+        }
+        
+        Auth.auth().createUser(withEmail: email, password: pass){
+            user,error in
+            if error == nil && user != nil {
+                self.labelText.text = "成功创建！"
+            }
+            else{
+                self.labelText.text = "创建失败"
+            }
+        }
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
