@@ -1,15 +1,13 @@
 //
-//  alreadySentAdViewController.swift
-//  LunaLauren
+//  messageVC.swift
+//  
 //
-//  Created by Luna Cao on 2018/7/9.
-//  Copyright © 2018年 Luna Cao. All rights reserved.
+//  Created by 林蔼欣 on 2018-07-19.
 //
 
 import UIKit
-import Firebase
 
-class alreadySentAdViewController: UIViewController {
+class messageVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
