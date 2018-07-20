@@ -68,15 +68,18 @@ class registerViewController: UIViewController {
                         changeRequest?.photoURL = url
                         
                         
-                        changeRequest?.commitChanges{error in
+                        changeRequest?.commitChanges {error in
                             
                             if error == nil{
                                 //转到profile
                                 
                                 self.saveProfile(username: username, profileImageURL: url!){
                                     success in
-                                    if success!{
+                                    if success{
                                         self.performSegue(withIdentifier: "registerComplete", sender: self)
+                                    }
+                                    else{
+                                      print("我觉得应该这里有问题")
                                     }
                                 }
                                 
@@ -100,7 +103,7 @@ class registerViewController: UIViewController {
     }
     
     
-    func saveProfile(username:String, profileImageURL:URL, completion: @escaping((_ sucess:Bool?)->())){
+    func saveProfile(username:String, profileImageURL:URL, completion: @escaping((_ sucess:Bool)->())){
         
         guard let uid = Auth.auth().currentUser?.uid else{
             return
@@ -114,9 +117,7 @@ class registerViewController: UIViewController {
         
         databaseRef.setValue(userObject){
             error, ref in
-            completion(
-                error == nil
-            )
+            completion(error == nil)
         }
         
     }

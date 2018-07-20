@@ -32,6 +32,7 @@ class profileViewController: UIViewController {
 
         self.labelText.text = "欢迎，" + (Auth.auth().currentUser?.displayName)!
         
+        
         imagePicker = UIImagePickerController()
         imagePicker.allowsEditing = true
         imagePicker.sourceType = .photoLibrary
