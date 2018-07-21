@@ -79,7 +79,7 @@ class registerViewController: UIViewController {
                                         self.performSegue(withIdentifier: "registerComplete", sender: self)
                                     }
                                     else{
-                                      print("我觉得应该这里有问题")
+                                        print("出问题")
                                     }
                                 }
                                 
@@ -109,6 +109,8 @@ class registerViewController: UIViewController {
             return
         }
         let databaseRef = Database.database().reference().child("users/profile/\(uid)")
+        
+        //print(profileImageURL)
         
         let userObject = [
             "username":username,
