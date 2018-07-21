@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -17,6 +18,25 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    
+    @IBOutlet weak var loginButton: UIButton!
+    
+    @IBOutlet weak var profileButton: UIButton!
+    
+    
+    //定义用户是否登录，显示登录按钮或不显示
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+       // if let user = Auth.auth().currentUser{
+         //  loginButton.isHidden = true
+           //profileButton.isHidden = false
+        //}
+        //else {
+            loginButton.isHidden = false
+            profileButton.isHidden = true
+        //}
+    }
     
     
     

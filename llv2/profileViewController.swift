@@ -7,17 +7,36 @@
 //
 
 import UIKit
+import Firebase
 
-class profileViewController: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
+class profileViewController: UIViewController {
     
-  
+    @IBOutlet weak var labelText: UILabel!
     
-
+    @IBAction func handleLogout(_ sender: UIButton) {
+        try! Auth.auth().signOut()
+        self.performSegue(withIdentifier: "logoutSegue", sender: self)
+    }
+    
+    @IBOutlet weak var profileImageView: UIImageView!
+    
+    var imagePicker: UIImagePickerController!
+    
+    
+    @IBAction func changePic(_ sender: UIButton) {
+         self.present(imagePicker,animated:true,completion:nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        self.labelText.text = "欢迎，" + (Auth.auth().currentUser?.displayName)!
+        
+        
+        imagePicker = UIImagePickerController()
+        imagePicker.allowsEditing = true
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.delegate = self
     }
     
     
@@ -38,4 +57,22 @@ class profileViewController: UIViewController,UINavigationControllerDelegate,UII
     }
     */
 
+}
+
+extension profileViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let pickedImage = info[UIImagePickerControllerEditedImage] as? UIImage{
+            
+            self.profileImageView.image = pickedImage
+        }
+        
+        picker.dismiss(animated: true, completion: nil)
+    }
+    
+    
 }
