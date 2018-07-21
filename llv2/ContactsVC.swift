@@ -20,14 +20,22 @@ class ContactsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
                 // get contact from database.
         //contacts = DBProvider.Instance.getContacts();
-        //DBProvider.Instance.getContacts();
+        DBProvider.Instance.delegate = self;
+        DBProvider.Instance.getContacts();
         
     }
     
-//    func dataReceived(contacts: [Contact]){
-//        self.contacts = contacts;
-//        myTable.reloadData();
-//    }
+    func dataReceived(contacts: [Contact]){
+        self.contacts = contacts;
+        
+        for contact in contacts {
+            if contact.id == OAuthProvider.Instance.userID() {
+                OAuthProvider.Instance.userName = contact.name;
+            }
+        }
+        
+        myTable.reloadData();
+    }
 
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
