@@ -43,7 +43,7 @@ class DBProvider {
     }
     
     var storageRef: StorageReference {
-        return Sorage.storage().reference(forURL: "网址")
+        return Storatge.storage().reference(forURL: "网址")
     }
     
     var imageStorageRef: StorageReference {
